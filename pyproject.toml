@@ -1,0 +1,38 @@
+[project]
+name = "dictat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "H-Hirata9", email = "nov26hihi@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "elevenlabs>=2.47.0",
+    "google-genai>=2.2.0",
+    "keyring>=25.7.0",
+    "numpy>=2.4.4",
+    "openai>=2.36.0",
+    "openai-whisper>=20250625",
+    "pyinstaller>=6.20.0",
+    "pynput>=1.8.2",
+    "pyside6>=6.11.1",
+    "sounddevice>=0.5.5",
+]
+
+[project.scripts]
+dictat = "dictat:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "pytest-mock>=3.15.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
