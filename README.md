@@ -2,7 +2,7 @@
 
 > Windows向け音声文字起こしアプリ。グローバルホットキーで録音を開始・停止し、文字起こし結果をアクティブウィンドウに直接入力します。
 
-[![Test](https://github.com/H-Hirata9/dictat/actions/workflows/test.yml/badge.svg)](https://github.com/H-Hirata9/dictat/actions/workflows/test.yml)
+[![Test](https://github.com/YOUR_USERNAME/dictat/actions/workflows/test.yml/badge.svg)](https://github.com/YOUR_USERNAME/dictat/actions/workflows/test.yml)
 ![Python](https://img.shields.io/badge/python-3.13%2B-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -42,7 +42,7 @@
 ## インストール
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dictat.git
+git clone https://github.com/H-Hirata9/dictat.git
 cd dictat
 uv sync
 ```
